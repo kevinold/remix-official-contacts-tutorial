@@ -1,11 +1,12 @@
 {
   "private": true,
   "sideEffects": false,
+  "main": "server.mjs",
   "scripts": {
     "build": "remix build",
     "ampt:build": "remix build",
-    "ampt:dev": "remix dev -c \"node server.mjs\"",
-    "dev": "remix dev -c \"node server.mjs\"",
+    "ampt:dev": "remix dev",
+    "dev": "remix dev",
     "start": "remix-serve build",
     "typecheck": "tsc"
   },
